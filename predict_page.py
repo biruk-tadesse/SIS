@@ -28,10 +28,10 @@ def show_predict_page():
     col1, col2 = st.beta_columns([1,2.5])
     with col1:
         st.markdown("***")
-        st.image('ALX.webp', width=400)
+        st.image('ALX.webp', width=350)
         url = "https://www.alxafrica.com//"
-        st.markdown("[ALX Africa Project](%s)" % url)
-        st.markdown("[ALX አፍሪካ ፕሮጀክት](%s)" % url)
+        st.markdown("[ALX Africa](%s)" % url)
+        st.markdown("[ALX አፍሪካ](%s)" % url)
         st.markdown("***")
         st.text("© ALX")
         st.text("2023/2015")
