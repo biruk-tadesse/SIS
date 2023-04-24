@@ -17,3 +17,5 @@ pip install -r requirements.txt
 4. Run
 
 streamlit run app.py
+
+N.B. Add a dataset, add train and test path, then train models before starting to use the app
